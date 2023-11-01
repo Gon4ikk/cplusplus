@@ -62,7 +62,7 @@ void zadanie8() {
         float result2 = 1.0f / num2;
 
         if (fabs(result1 - result2) < epsilon) {
-            cout << "Результати однакові (by " << epsilon << " epsilon)" << endl;
+            cout << "Результати однакові (до " << epsilon << " epsilon)" << endl;
         }
         else {
             cout << "Результати різні" << endl;
