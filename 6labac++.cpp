@@ -7,9 +7,9 @@ int main() {
     std::cin >> N;
 
     while (N > 0) {
-        int digit = N % 10;
-        if (digit % 2 != 0) {
-            product *= digit;
+        int value = N % 10;
+        if (value % 2 != 0) {
+            product *= value;
         }
         N /= 10;
     }
